@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'Geo';
+    src: url(Police/Geometos.ttf);
+}
+
+@font-face {
+    font-family: "Memphis";
+    src: url(Police/Memphis\ River.otf);
+}
+
+@font-face {
+    font-family: "Bouton";
+    src: url(Police/geomanist-regular-webfont.ttf);
+}
+
+
+body {
+    background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    font-family: 'Memphis';
+    margin-top: 20px;
+}
+
+.general {
+    width: 90%;
+
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+h2{
+    color: black;
+    font-size: 26px;
+}
+aside {
+
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    width: 130px;
+    margin-left: 30px;
+    color: white;
+    text-align: left;
+    padding: 2%;
+    padding-top: 0%;
+    font-family: "Bouton";
+    border-right: 1px solid white;
+}
+
+section {
+    width: 80%;
+    margin: 0 auto;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 2%;
+    color: white;
+    font-family: "Bouton";
+    text-align: justify;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+
+}
+
+.btn {
+    width: 300px;
+    height: 100px;
+    border: none;
+    color: white;
+    background-color: black;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 #61045F;
+    transition: ease-out 0.3s;
+    font-size: 2rem;
+    outline: none;
+    font-family: "Bouton";
+}
+
+.btn:hover {
+    box-shadow: inset 300px 0 0 0 #31354e ;
+    cursor: pointer;
+    color: white;
+}

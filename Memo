@@ -1,0 +1,60 @@
+body{
+    height: 100vh;
+    background: 
+    linear-gradient(45deg, rgb(76,0,255), transparent),
+    repeating-linear-gradient(45deg, rgb(183,0,255) 0%, rgb(183, 0, 255) 5%, transparent 5%, transparent 10%, rgb(183, 0, 255) 10%, rgb(183, 0, 255) 11%, transparent 11%, transparent 15%),
+    rgb(216, 118, 255) repeating-linear-gradient(-45deg,rgba(183,0,255, 0.5) 0%, rgba(183, 0, 255, 0.5) 5%, transparent 5%, transparent 10%);
+
+    
+}
+
+
+
+Actuellement étudiant en L3 Administration Economique et Sociale à l’université Toulouse Capitole, je souhaite intégrer, dès la rentrée prochaine, un master MIAGE IM (ingénierie métier) et poursuivre sur une deuxième année qui me spécialisera dans les systèmes informatiques d’aide à la décision.
+En effet, j'ai développé un intérêt pour la programmation et la data au cours de mes années de licence. Je trouve ces matières intéressantes malgré la réflexion qu'elles demandent.
+Afin de mieux me préparer à la vie professionnelle et pousser ma spécialisation à son maximum, j’ai choisi la voie de l’alternance.
+Cette dernière me permettra d’allier la théorie et la pratique de manière adéquate. C’est pourquoi je me tourne vers votre entreprise
+Mes précédentes expériences professionnelles m’ont appris à m’adapter aux exigences des clients mais aussi à la maîtrise des nouveaux outils mis à ma disposition.
+Je possède le sérieux et la motivation nécessaire à la réussite d’une formation en alternance.
+A travers, cette alternance je souhaite ainsi profiter d’une méthode d’apprentissage qui approfondira mes connaissances dans le domaine de l’aide à la décision pour un futur proche venir en aide aux acteurs économiques dans leur quotidien.
+De mon côté, je pourrais ainsi acquérir une solide expérience professionnelle, de plus, cette formation vous permettra d’avoir à votre disposition un futur jeune employé motivé et qualifié.
+Je reste à votre entière disposition pour plus de renseignement, dans l’attente de votre retour.
+
+
+
+
+    <div class="container">
+        <h2>Contact</h2>
+        <p>06 95 58 17 17
+            arifdurdu@hotmail.fr
+            20 ans (30/10/2001)
+            <br>
+            8 Rue Clément Durand
+            81100 CASTRES
+        </p>
+        <h2>Centre d'intérêts</h2>
+        <p>Jeu d'échec <br> Tir sportif
+        </p>
+        <h2>Informatique</h2>
+        <p> Pack Office, VBA, SQL, HTML, CSS
+        </p>
+        <h2>Langue</h2>
+        <p>
+            Français (courant)<br>
+            Turc (courant)<br>
+            Anglais (B1)
+            Espagnol (A2)
+        </p>
+    </div>
+
+.container {
+    float: left;
+    width: 130px;
+    margin-left: 30px;
+    color: black;
+    background-color: white;
+    text-align: left;
+    padding: 2%;
+    padding-top: 0%;
+    font-family: "Bouton";
+}
